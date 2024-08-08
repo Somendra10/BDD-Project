@@ -1,0 +1,7 @@
+ConfigFile\readConfig.class
+PageFactory\productPageFactory.class
+TestRunner\loginTestRunner.class
+PageFactory\loginPageFactory.class
+StepDefinitions\productStepDefinitions.class
+Hooks\hooksClass.class
+StepDefinitions\loginStepDefinitions.class

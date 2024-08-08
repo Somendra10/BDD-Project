@@ -46,7 +46,7 @@ public class productPageFactory {
 
 	public void verifyCartIcon() {
 		String Actual= cartIcon.getText();
-		String Exp= "2";
+		String Exp= "1";
 		Assert.assertEquals(Actual, Exp);
 		
 	}
