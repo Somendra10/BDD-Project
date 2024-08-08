@@ -3,7 +3,7 @@ Feature: Login Scenario
 Background:
 Given User is on Login screen
 
-
+  @smoke
   Scenario: Check Login with invalid credentails
     When User Enter invalid Email and Password
     And User click on Login button
