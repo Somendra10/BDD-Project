@@ -91,7 +91,7 @@ public void enterMultipleEmailPsw(String Email, String Password){
 		
 		String exp= "Epic sadface: Username and password do not match any user in this servicee";
 		String actual=loginErrorMsg.getText();
-		Assert.assertEquals(exp, actual);
+		Assert.assertEquals(actual, exp);
 		
 	}
 	

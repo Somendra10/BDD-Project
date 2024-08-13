@@ -17,6 +17,7 @@ public class readConfig {
 	    	 fis= new FileInputStream("src/test/resources/PropertiesFile/config.properties");
 	    	 prop= new Properties();
 	    	 prop.load(fis);
+	    	
 	     }
 	     
 	     public String getValidEmail() {
@@ -52,7 +53,7 @@ public class readConfig {
 	    	  
 	    public String getUrl() {
 	    	
-	    	return prop.getProperty("url");
+	    	return prop.getProperty("Url");
 	    }
 	    	  
 	    	 
