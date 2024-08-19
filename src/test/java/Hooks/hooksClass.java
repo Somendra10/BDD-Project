@@ -24,8 +24,6 @@ public class hooksClass {
 	@Before
 	
 	public void setUp() throws IOException {
-		Random random=new Random();
-		int randomInt=random.nextInt(50);
 		
 		String Url="https://www.saucedemo.com";
 		driver=new ChromeDriver();

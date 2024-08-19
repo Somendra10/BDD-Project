@@ -27,7 +27,11 @@ public class writeConfig {
 		 prop.store(fos, null);
 
            
-        } 
+        }
+	
+
+	
+	
 	}
 
 
